@@ -1,11 +1,13 @@
-testcase1: verify user able to click on sign in button.
-2.verify user able to create an account.
-3.Verify user able to SignIn with valid user name and password.
-4.Verify user able to click on 'Women' tab
-5.Verify user able to click on 'Dresses' tab
-6.Verify user able to click on 'Women' tab T-Shirts
-7.Verify user able to add product to 'Add to Cart'.
-8.Verify user able to Proceed to checkout.
-9. verify whether user is able to place an order.
-10.verify whether user able to see the order details in order details tab.
+Testcases
+
+Case1: Verify user able to click on sign in button.
+Case2.Verify user able to create an account.
+Case3.Verify user able to SignIn with valid user name and password.
+Case4.Verify user able to click on 'Women' tab
+Case5.Verify user able to click on 'Dresses' tab
+Case6.Verify user able to click on 'Women' tab T-Shirts
+Case7.Verify user able to add product to 'Add to Cart'.
+Case8.Verify user able to Proceed to checkout.
+Case9.Verify whether user is able to place an order.
+Case10.Verify whether user able to see the order details in order details tab.
 
