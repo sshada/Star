@@ -1,13 +1,36 @@
-Testcases
+[1] --  Verify that user account is created successfully in a application.
+Given: User is able to launch the URl.
+When we click on sign in button 
+Then the user navigates to create account tab
+And when the user fills the required fields and clicks on 'Register' button.
+Then the user is able to create account.
 
-Case1: Verify user able to click on sign in button.
-Case2.Verify user able to create an account.
-Case3.Verify user able to SignIn with valid user name and password.
-Case4.Verify user able to click on 'Women' tab
-Case5.Verify user able to click on 'Dresses' tab
-Case6.Verify user able to click on 'Women' tab T-Shirts
-Case7.Verify user able to add product to 'Add to Cart'.
-Case8.Verify user able to Proceed to checkout.
-Case9.Verify whether user is able to place an order.
-Case10.Verify whether user able to see the order details in order details tab.
+[2] -- Verify the login functionality.
+
+Positive:
+Given User is able to launch the URl.
+When entering the valid username,password and clicked on Login button
+Then the user should be able to login successfully into the application.
+
+Negative:
+Given User is able to launch the URl..
+When entering the invalid username,password and clicked on Login button
+Then the error message should be displayed.
+
+[3] --  Verify that Search Field is displaying matching products those are available in the application.
+Given: User is able to enter in a search field button
+When we search for any product 
+Then it should display appropriate product list.
+
+[4] -- Verify the all the Check boxes are working properly or not in a application. 
+Given:User is able to navigate to particular page.
+When we click on the tabs like(Dresses,T-Shirts,Womens)
+Then it should navigate to appropriate page.
+
+
+
+[5] Verify the detailed price summary of the product in a SHOPPING-CART SUMMARY Page
+Given:User is able to add to cart.
+When we click on Add-to-cart button and click on proceed to check out button
+Then it should display complete details of a product in a shopping cart summary page and click on logout.
 
